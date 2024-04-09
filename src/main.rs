@@ -139,7 +139,7 @@ fn main() {
 		[".",".",".",".","8",".",".","7","9"]];
 	let mut vec: Vec<Vec<char>> = vec.iter().map(|row| row.iter().map(|&c| c.to_string().parse().unwrap()).collect()).collect();
 	solve_sudoku(&mut vec);
-    
+
 	println!("{:?}", vec);
 
 }
